@@ -9,6 +9,10 @@
 body {
     font-family: sans-serif;
 }
+
+p {
+    margin-top: 20px;
+}
 .header-name-nav {
     background-color: var(--color-dark);
     display: flex;
@@ -62,6 +66,22 @@ body {
     margin: 10px 20px;
     padding: 0px 10px;
 }
+
+.about-me-div {
+    display: flex;
+}
+
+.about-me-div .about-me-text {
+    margin: 30px;
+}
+
+.left-side-main {
+    color: var(--color-dark);
+    margin: 30px;
+    padding: 20px;
+    border-right: 3px solid;
+}
+
 @media screen and (max-width: 780px) {
     .header-name-nav {
         flex-direction: column;
