@@ -50,6 +50,7 @@ p {
 }
 
 .header-image {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -59,6 +60,13 @@ p {
     height: 150px;
     margin: 0px;
     padding: 0px;
+}
+
+.mypic {
+    position: absolute;
+    left: 10px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .header-image h2 {
